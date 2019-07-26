@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bpr-NU-emB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Rpa-y7-qJa">
+            <objects>
+                <navigationController id="Bpr-NU-emB" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8Av-bQ-CYG">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="K6j-Gr-Wb3" kind="relationship" relationship="rootViewController" id="2bb-W6-uAt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uoC-Cv-GRA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2505" y="-1"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="CPw-aQ-a49">
+            <objects>
+                <viewController id="K6j-Gr-Wb3" customClass="RootViewController" customModule="PokeScanPreprocessing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vP7-Wd-Qsz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fKu-ad-59i">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOC-ly-MEX">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <state key="normal" title="Original"/>
+                                        <connections>
+                                            <action selector="showOriginal" destination="K6j-Gr-Wb3" eventType="primaryActionTriggered" id="VgN-Qi-5sh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Og3-X9-gsz">
+                                        <rect key="frame" x="0.0" y="100.5" width="375" height="100.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <state key="normal" title="Grayscale"/>
+                                        <connections>
+                                            <action selector="showGrayscale" destination="K6j-Gr-Wb3" eventType="primaryActionTriggered" id="G2o-VL-dG2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Nu-IK-OaK">
+                                        <rect key="frame" x="0.0" y="201" width="375" height="100.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <state key="normal" title="Local Contrast"/>
+                                        <connections>
+                                            <action selector="showLocalContrast" destination="K6j-Gr-Wb3" eventType="primaryActionTriggered" id="Ep8-Qm-dQM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEK-tj-uOW">
+                                        <rect key="frame" x="0.0" y="301.5" width="375" height="100.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <state key="normal" title="Text Boxes"/>
+                                        <connections>
+                                            <action selector="showTextBoxes" destination="K6j-Gr-Wb3" eventType="primaryActionTriggered" id="Amo-DM-7Eq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJS-S0-aVJ">
+                                        <rect key="frame" x="0.0" y="402" width="375" height="100.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <state key="normal" title="Interesting Text"/>
+                                        <connections>
+                                            <action selector="showInterestingText" destination="K6j-Gr-Wb3" eventType="primaryActionTriggered" id="0JE-H5-Obl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0M-kD-pR7">
+                                        <rect key="frame" x="0.0" y="502.5" width="375" height="100.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <state key="normal" title="Text Recognition"/>
+                                        <connections>
+                                            <action selector="showTextRecognition" destination="K6j-Gr-Wb3" eventType="primaryActionTriggered" id="SBt-zs-mns"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fKu-ad-59i" firstAttribute="centerX" secondItem="UI6-Sw-jCy" secondAttribute="centerX" id="9EF-A0-AkM"/>
+                            <constraint firstItem="fKu-ad-59i" firstAttribute="width" secondItem="UI6-Sw-jCy" secondAttribute="width" id="EaC-vr-Tqj"/>
+                            <constraint firstItem="fKu-ad-59i" firstAttribute="height" secondItem="UI6-Sw-jCy" secondAttribute="height" id="FkZ-f5-agP"/>
+                            <constraint firstItem="fKu-ad-59i" firstAttribute="centerY" secondItem="UI6-Sw-jCy" secondAttribute="centerY" id="yTa-Df-Pgv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UI6-Sw-jCy"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uEK-Ox-M05"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V2H-cf-bB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1660" y="-1"/>
+        </scene>
+    </scenes>
+</document>
