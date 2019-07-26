@@ -58,3 +58,13 @@ private func analyzeTextBlock(_ textBlock: TextDetectorResult.TextBlock) throws 
         .joined()
 }
 ```
+
+```swift
+private func classify(_ pixelBuffer: CVPixelBuffer) throws -> String? {
+    let prediction = try hpClassifier.prediction(image: pixelBuffer)
+    let classLabel = prediction.classLabel
+    let probability = prediction.output[classLabel] ?? 0
+
+    // ...
+}
+```

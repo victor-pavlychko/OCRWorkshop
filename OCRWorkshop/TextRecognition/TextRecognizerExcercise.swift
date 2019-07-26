@@ -41,9 +41,9 @@ class TextRecognizer {
     }
 
     private func classify(_ pixelBuffer: CVPixelBuffer) throws -> String? {
-        let prediction = try hpClassifier.prediction(image: pixelBuffer)
-        let classLabel = prediction.classLabel
-        let probability = prediction.output[classLabel] ?? 0
+        #warning("Replace with your code")
+        let classLabel = ""
+        let probability = 0.0
         guard probability > threshold else {
             return nil
         }

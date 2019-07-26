@@ -22,9 +22,6 @@
 		571664E422EA573B00DDBD50 /* BitmapRowAnalyzerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748DC0C22E7984400D681F6 /* BitmapRowAnalyzerResult.swift */; };
 		571664EC22EA5B8000DDBD50 /* TextDetectorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571664EB22EA5B8000DDBD50 /* TextDetectorResult.swift */; };
 		571664EE22EA5EFD00DDBD50 /* VisionTextDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571664ED22EA5EFD00DDBD50 /* VisionTextDetector.swift */; };
-		571664F422EA65DF00DDBD50 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 571664F122EA65DF00DDBD50 /* LICENSE */; };
-		571664F522EA65DF00DDBD50 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 571664F222EA65DF00DDBD50 /* README.md */; };
-		571664F622EA65DF00DDBD50 /* SOLUTION.md in Resources */ = {isa = PBXBuildFile; fileRef = 571664F322EA65DF00DDBD50 /* SOLUTION.md */; };
 		571664F822EA668800DDBD50 /* HpClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 571664F722EA668800DDBD50 /* HpClassifier.mlmodel */; };
 		571664FB22EA6EF600DDBD50 /* LocalContrastFilter.cikernel_final in Resources */ = {isa = PBXBuildFile; fileRef = 571664FA22EA6EF600DDBD50 /* LocalContrastFilter.cikernel_final */; };
 		5716650D22EA840000DDBD50 /* BitmapRowAnalyzerExcercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576998E322E7975200216FF2 /* BitmapRowAnalyzerExcercise.swift */; };
@@ -93,6 +90,7 @@
 		5750162222E9D7CF000A4DCB /* BitmapBuffer+DebugDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BitmapBuffer+DebugDraw.swift"; sourceTree = "<group>"; };
 		5750162622EA2268000A4DCB /* GrayscaleFilter.cikernel */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; path = GrayscaleFilter.cikernel; sourceTree = "<group>"; };
 		5750162822EA22E7000A4DCB /* LocalContrastFilter.cikernel */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; path = LocalContrastFilter.cikernel; sourceTree = "<group>"; };
+		5757BF7F22EA88250037B03C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		576998DF22E795CE00216FF2 /* ImageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
 		576998E122E7964300216FF2 /* OptionalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtensions.swift; sourceTree = "<group>"; };
 		576998E322E7975200216FF2 /* BitmapRowAnalyzerExcercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitmapRowAnalyzerExcercise.swift; sourceTree = "<group>"; };
@@ -177,6 +175,7 @@
 		571664F022EA65AC00DDBD50 /* Meta */ = {
 			isa = PBXGroup;
 			children = (
+				5757BF7F22EA88250037B03C /* .gitignore */,
 				571664F122EA65DF00DDBD50 /* LICENSE */,
 				571664F222EA65DF00DDBD50 /* README.md */,
 				571664F322EA65DF00DDBD50 /* SOLUTION.md */,
@@ -350,12 +349,9 @@
 				57A462A522E454C900817EB6 /* LaunchScreen.storyboard in Resources */,
 				5750162922EA22E7000A4DCB /* LocalContrastFilter.cikernel in Resources */,
 				5750162722EA2268000A4DCB /* GrayscaleFilter.cikernel in Resources */,
-				571664F522EA65DF00DDBD50 /* README.md in Resources */,
 				57A462A222E454C900817EB6 /* Assets.xcassets in Resources */,
-				571664F422EA65DF00DDBD50 /* LICENSE in Resources */,
 				571664FB22EA6EF600DDBD50 /* LocalContrastFilter.cikernel_final in Resources */,
 				57A462A022E454C800817EB6 /* Main.storyboard in Resources */,
-				571664F622EA65DF00DDBD50 /* SOLUTION.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
