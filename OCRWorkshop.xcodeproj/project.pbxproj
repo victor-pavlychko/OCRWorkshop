@@ -23,10 +23,7 @@
 		571664EC22EA5B8000DDBD50 /* TextDetectorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571664EB22EA5B8000DDBD50 /* TextDetectorResult.swift */; };
 		571664EE22EA5EFD00DDBD50 /* VisionTextDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571664ED22EA5EFD00DDBD50 /* VisionTextDetector.swift */; };
 		571664F822EA668800DDBD50 /* HpClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 571664F722EA668800DDBD50 /* HpClassifier.mlmodel */; };
-		571664FB22EA6EF600DDBD50 /* LocalContrastFilter.cikernel_final in Resources */ = {isa = PBXBuildFile; fileRef = 571664FA22EA6EF600DDBD50 /* LocalContrastFilter.cikernel_final */; };
-		5716650D22EA840000DDBD50 /* BitmapRowAnalyzerExcercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576998E322E7975200216FF2 /* BitmapRowAnalyzerExcercise.swift */; };
-		5716650E22EA840000DDBD50 /* TextDetectorExcercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571664E922EA5B4500DDBD50 /* TextDetectorExcercise.swift */; };
-		5716650F22EA840000DDBD50 /* TextRecognizerExcercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571664E622EA5A3300DDBD50 /* TextRecognizerExcercise.swift */; };
+		571664FB22EA6EF600DDBD50 /* LocalContrastFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 571664FA22EA6EF600DDBD50 /* LocalContrastFilter.cikernel */; };
 		5750160C22E9B856000A4DCB /* BinaryIntegerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5750160B22E9B856000A4DCB /* BinaryIntegerExtensions.swift */; };
 		5750160E22E9B8CF000A4DCB /* BitmapBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5750160D22E9B8CF000A4DCB /* BitmapBuffer.swift */; };
 		5750161022E9B95D000A4DCB /* BitmapBuffer+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5750160F22E9B95D000A4DCB /* BitmapBuffer+UIKit.swift */; };
@@ -39,7 +36,10 @@
 		5750162122E9D378000A4DCB /* WrappedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5750162022E9D378000A4DCB /* WrappedError.swift */; };
 		5750162322E9D7CF000A4DCB /* BitmapBuffer+DebugDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5750162222E9D7CF000A4DCB /* BitmapBuffer+DebugDraw.swift */; };
 		5750162722EA2268000A4DCB /* GrayscaleFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 5750162622EA2268000A4DCB /* GrayscaleFilter.cikernel */; };
-		5750162922EA22E7000A4DCB /* LocalContrastFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 5750162822EA22E7000A4DCB /* LocalContrastFilter.cikernel */; };
+		5750162922EA22E7000A4DCB /* LocalContrastFilter.cikernel_excercise in Resources */ = {isa = PBXBuildFile; fileRef = 5750162822EA22E7000A4DCB /* LocalContrastFilter.cikernel_excercise */; };
+		5757BF8122EA8BEA0037B03C /* BitmapRowAnalyzerExcerciseFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571664FE22EA718E00DDBD50 /* BitmapRowAnalyzerExcerciseFinal.swift */; };
+		5757BF8222EA8BEA0037B03C /* TextDetectorExcerciseFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5716650022EA71C700DDBD50 /* TextDetectorExcerciseFinal.swift */; };
+		5757BF8322EA8BEA0037B03C /* TextRecognizerExcerciseFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571664FC22EA715F00DDBD50 /* TextRecognizerExcerciseFinal.swift */; };
 		576998E022E795CE00216FF2 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576998DF22E795CE00216FF2 /* ImageFilter.swift */; };
 		576998E222E7964300216FF2 /* OptionalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576998E122E7964300216FF2 /* OptionalExtensions.swift */; };
 		57A41CAD22E4D7F0009760DB /* PixelFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A41CA922E4D7F0009760DB /* PixelFormat.swift */; };
@@ -72,7 +72,7 @@
 		571664F222EA65DF00DDBD50 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		571664F322EA65DF00DDBD50 /* SOLUTION.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SOLUTION.md; sourceTree = "<group>"; };
 		571664F722EA668800DDBD50 /* HpClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HpClassifier.mlmodel; sourceTree = "<group>"; };
-		571664FA22EA6EF600DDBD50 /* LocalContrastFilter.cikernel_final */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = LocalContrastFilter.cikernel_final; sourceTree = "<group>"; };
+		571664FA22EA6EF600DDBD50 /* LocalContrastFilter.cikernel */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = LocalContrastFilter.cikernel; sourceTree = "<group>"; };
 		571664FC22EA715F00DDBD50 /* TextRecognizerExcerciseFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRecognizerExcerciseFinal.swift; sourceTree = "<group>"; };
 		571664FE22EA718E00DDBD50 /* BitmapRowAnalyzerExcerciseFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitmapRowAnalyzerExcerciseFinal.swift; sourceTree = "<group>"; };
 		5716650022EA71C700DDBD50 /* TextDetectorExcerciseFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDetectorExcerciseFinal.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		5750162022E9D378000A4DCB /* WrappedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappedError.swift; sourceTree = "<group>"; };
 		5750162222E9D7CF000A4DCB /* BitmapBuffer+DebugDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BitmapBuffer+DebugDraw.swift"; sourceTree = "<group>"; };
 		5750162622EA2268000A4DCB /* GrayscaleFilter.cikernel */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; path = GrayscaleFilter.cikernel; sourceTree = "<group>"; };
-		5750162822EA22E7000A4DCB /* LocalContrastFilter.cikernel */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; path = LocalContrastFilter.cikernel; sourceTree = "<group>"; };
+		5750162822EA22E7000A4DCB /* LocalContrastFilter.cikernel_excercise */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; path = LocalContrastFilter.cikernel_excercise; sourceTree = "<group>"; };
 		5757BF7F22EA88250037B03C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		576998DF22E795CE00216FF2 /* ImageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
 		576998E122E7964300216FF2 /* OptionalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtensions.swift; sourceTree = "<group>"; };
@@ -230,8 +230,8 @@
 			children = (
 				5750162622EA2268000A4DCB /* GrayscaleFilter.cikernel */,
 				57A462AF22E454FE00817EB6 /* GrayscaleFilter.swift */,
-				5750162822EA22E7000A4DCB /* LocalContrastFilter.cikernel */,
-				571664FA22EA6EF600DDBD50 /* LocalContrastFilter.cikernel_final */,
+				5750162822EA22E7000A4DCB /* LocalContrastFilter.cikernel_excercise */,
+				571664FA22EA6EF600DDBD50 /* LocalContrastFilter.cikernel */,
 				57A462B122E4550900817EB6 /* LocalContrastFilter.swift */,
 			);
 			path = Filters;
@@ -347,10 +347,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57A462A522E454C900817EB6 /* LaunchScreen.storyboard in Resources */,
-				5750162922EA22E7000A4DCB /* LocalContrastFilter.cikernel in Resources */,
+				5750162922EA22E7000A4DCB /* LocalContrastFilter.cikernel_excercise in Resources */,
 				5750162722EA2268000A4DCB /* GrayscaleFilter.cikernel in Resources */,
 				57A462A222E454C900817EB6 /* Assets.xcassets in Resources */,
-				571664FB22EA6EF600DDBD50 /* LocalContrastFilter.cikernel_final in Resources */,
+				571664FB22EA6EF600DDBD50 /* LocalContrastFilter.cikernel in Resources */,
 				57A462A022E454C800817EB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +363,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5750160C22E9B856000A4DCB /* BinaryIntegerExtensions.swift in Sources */,
-				5716650D22EA840000DDBD50 /* BitmapRowAnalyzerExcercise.swift in Sources */,
 				5750160E22E9B8CF000A4DCB /* BitmapBuffer.swift in Sources */,
 				571664EE22EA5EFD00DDBD50 /* VisionTextDetector.swift in Sources */,
 				571664E422EA573B00DDBD50 /* BitmapRowAnalyzerResult.swift in Sources */,
@@ -382,20 +381,21 @@
 				5750161F22E9D2C2000A4DCB /* GenericError.swift in Sources */,
 				5750162122E9D378000A4DCB /* WrappedError.swift in Sources */,
 				57A462B222E4550900817EB6 /* LocalContrastFilter.swift in Sources */,
-				5716650F22EA840000DDBD50 /* TextRecognizerExcercise.swift in Sources */,
 				57A462B022E454FE00817EB6 /* GrayscaleFilter.swift in Sources */,
 				571664D722EA46C800DDBD50 /* 02_LocalContrastViewController.swift in Sources */,
 				571664D122EA466100DDBD50 /* CGRectExtensions.swift in Sources */,
 				571664D522EA46C800DDBD50 /* 03_TextBoxesViewController.swift in Sources */,
 				5750161B22E9D2AB000A4DCB /* ErrorSourceReference.swift in Sources */,
+				5757BF8122EA8BEA0037B03C /* BitmapRowAnalyzerExcerciseFinal.swift in Sources */,
 				576998E022E795CE00216FF2 /* ImageFilter.swift in Sources */,
+				5757BF8322EA8BEA0037B03C /* TextRecognizerExcerciseFinal.swift in Sources */,
+				5757BF8222EA8BEA0037B03C /* TextDetectorExcerciseFinal.swift in Sources */,
 				57A41CB022E4D873009760DB /* CVPixelBufferExtensions.swift in Sources */,
 				571664CF22EA465800DDBD50 /* VNRectangleObservationExtensions.swift in Sources */,
 				571664DB22EA4E4700DDBD50 /* 00_OriginalViewController.swift in Sources */,
 				5750161622E9BA27000A4DCB /* BitmapBuffer+RawData.swift in Sources */,
 				57A4629B22E454C800817EB6 /* AppDelegate.swift in Sources */,
 				5750162322E9D7CF000A4DCB /* BitmapBuffer+DebugDraw.swift in Sources */,
-				5716650E22EA840000DDBD50 /* TextDetectorExcercise.swift in Sources */,
 				5750161022E9B95D000A4DCB /* BitmapBuffer+UIKit.swift in Sources */,
 				576998E222E7964300216FF2 /* OptionalExtensions.swift in Sources */,
 				57A41CAD22E4D7F0009760DB /* PixelFormat.swift in Sources */,
