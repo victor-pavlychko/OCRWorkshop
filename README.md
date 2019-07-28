@@ -1,3 +1,7 @@
+# Presentation Deck
+
+https://raw.githubusercontent.com/victor-pavlychko/OCRWorkshop/master/OCRWorkshop.pdf
+
 # Prerequisites
 
 ## General
@@ -20,6 +24,7 @@ Open `OCRWorkshop.xcodeproj` and run the app.
 
 The project contains excercises and solutions in the following files:
 - `FiltersLocalContrastFilter.cikernel` and `Filters/LocalContrastFilter.cikernel_final` 
+- `Vision/VisionTextDetectorExcercise.swift` and `Vision/VisionTextDetectorExcerciseFinal.swift`
 - `Analysis/BitmapRowAnalyzerExcercise.swift` and `Analysis/BitmapRowAnalyzerExcerciseFinal.swift` 
 - `TextDetection/TextDetectorExcercise.swift` and `TextDetection/TextDetectorExcerciseFinal.swift` 
 - `TextRecognition/TextRecognizerExcercise.swift` and `TextRecognition/TextRecognizerExcerciseFinal.swift` 
